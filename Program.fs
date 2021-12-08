@@ -4,14 +4,14 @@ open System
 open Loaders
 open Day1
 open Day2
+open Day3
 
 [<EntryPoint>]
 let main argv =
 
-    let result = day2part1()
-    printfn "Result part 1 is %i" result
+    let result = day3part1()
+    printfn "%s" <| result.ToString()
 
-    let result2 = day2part2()
-    printfn "Result part 2 is %i" result2
+    printfn "Result part 1 is %i" result
 
     0 // return an integer exit code
